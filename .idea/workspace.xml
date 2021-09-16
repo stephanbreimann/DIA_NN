@@ -1,7 +1,135 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e0e5a563-5839-4361-bbb4-8d3e29c0dd50" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JupyterTrust" id="89e56632-7be4-48ca-9ed2-c784553891a5" />
+  <component name="ProjectId" id="1yEFJXFmwHxSxxfWqyt0kvYGFWU" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$USER_HOME$/Programming/Pycharm_Projekte/Modules" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RunManager" selected="Python.precursor_peptide_count">
+    <configuration name="precursor_peptide_count" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DIA_NN" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/precursor_peptide_count.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="start_project" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DIA_NN" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/start_project.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.precursor_peptide_count" />
+        <item itemvalue="Python.start_project" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e0e5a563-5839-4361-bbb4-8d3e29c0dd50" name="Default Changelist" comment="" />
+      <created>1631808768706</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1631808768706</updated>
+      <workItem from="1631808769748" duration="966000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="823" y="513" width="274" height="207" key="Github.ShareDialog" timestamp="1631809622161">
+      <screen x="0" y="27" width="1920" height="1173" />
+    </state>
+    <state x="823" y="513" width="274" height="207" key="Github.ShareDialog/0.27.1920.1173/1920.0.2560.1440@0.27.1920.1173" timestamp="1631809622161" />
+    <state x="579" y="290" width="752" height="654" key="Github.UntrackedFilesDialog" timestamp="1631809629415">
+      <screen x="0" y="27" width="1920" height="1173" />
+    </state>
+    <state x="579" y="290" width="752" height="654" key="Github.UntrackedFilesDialog/0.27.1920.1173/1920.0.2560.1440@0.27.1920.1173" timestamp="1631809629415" />
+    <state width="1874" height="423" key="GridCell.Tab.0.bottom" timestamp="1631809572829">
+      <screen x="0" y="27" width="1920" height="1173" />
+    </state>
+    <state width="1874" height="423" key="GridCell.Tab.0.bottom/0.27.1920.1173/1920.0.2560.1440@0.27.1920.1173" timestamp="1631809572829" />
+    <state width="1874" height="423" key="GridCell.Tab.0.center" timestamp="1631809572829">
+      <screen x="0" y="27" width="1920" height="1173" />
+    </state>
+    <state width="1874" height="423" key="GridCell.Tab.0.center/0.27.1920.1173/1920.0.2560.1440@0.27.1920.1173" timestamp="1631809572829" />
+    <state width="1874" height="423" key="GridCell.Tab.0.left" timestamp="1631809572829">
+      <screen x="0" y="27" width="1920" height="1173" />
+    </state>
+    <state width="1874" height="423" key="GridCell.Tab.0.left/0.27.1920.1173/1920.0.2560.1440@0.27.1920.1173" timestamp="1631809572829" />
+    <state width="1874" height="423" key="GridCell.Tab.0.right" timestamp="1631809572829">
+      <screen x="0" y="27" width="1920" height="1173" />
+    </state>
+    <state width="1874" height="423" key="GridCell.Tab.0.right/0.27.1920.1173/1920.0.2560.1440@0.27.1920.1173" timestamp="1631809572829" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/DIA_NN$start_project.coverage" NAME="start_project Coverage Results" MODIFIED="1631809039370" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DIA_NN$precursor_peptide_count.coverage" NAME="precursor_peptide_count Coverage Results" MODIFIED="1631809529958" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
   </component>
 </project>
