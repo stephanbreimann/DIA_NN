@@ -63,13 +63,24 @@ def get_counts(df=None, group_str="MS_data", col_id=None):
 
 def filter_pep(df=None, percent=90, n_pep_min=2):
     """Filter based on peptide count"""
-    ut.check_non_negative_number(name="percent", val=percent, min_val=10, max_val=100)
+    ut.check_non_negative_number(name="percent", val=percent, min_val=5, max_val=100)
     ut.check_non_negative_number(name="n_pep_min", val=n_pep_min, min_val=1, max_val=10)
     cols_pep = [x for x in list(df) if STR_PEPTIDE in x]
     n = int(len(cols_pep) * percent / 100)
     mask = (df[cols_pep] >= n_pep_min).sum(axis=1) >= n
     df_filtered = df[mask]
     return df_filtered
+
+
+def get_coverage(df=None, group_str=" R0", count_str="Int"):
+    """"""
+    cols_info = [x for x in list(df) if group_str not in x]
+    cols_count = [x for x in list(df) if group_str in x and count_str in x]
+    df_c = df[cols_count]
+    coverage = (df_c > 0).sum(axis=1)
+    df_cov = df[cols_info].copy()
+    df_cov["n runs"] = coverage
+    return df_cov
 
 
 # III Test/Caller Functions
@@ -87,7 +98,7 @@ def ring_trial():
     cols_group = ["Int " + x.split("timsproDIA_")[-1].split(".")[0] for x in list(df_pg) if group_str in x]
     df_pg.columns = cols + cols_group
     df_pg = df_pg.join(df_count)
-    print(df_pg)
+
     array = []
     list_percent = list(range(50, 110, 10))
     list_n_pep_min = list(range(1, 10))
@@ -105,6 +116,10 @@ def ring_trial():
     plt.xlabel("min n peptides")
     plt.show()
 
+    # Get single protein coverage
+    df_f = filter_pep(df=df_pg, n_pep_min=1, percent=5)
+    df_cov = get_coverage(df=df_f)
+    print(df_cov.sort_values(by="n runs").head(50))
 
 # IV Main
 def main():
